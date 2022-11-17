@@ -1,1 +1,2 @@
-# Rock-paper-scisors
+# Rock-paper-scissors
+Web game.
