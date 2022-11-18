@@ -5,7 +5,6 @@
 }
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 62.5%;
 }
 h1 {
     font-size: 3rem;
@@ -21,7 +20,6 @@ h2 {
     padding: 2rem;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 header::after {
     content: '';
@@ -51,10 +49,10 @@ header::after {
 }
 .results {
     font-size: 2rem;
-    position: absolute;
-    top: 80%;
+    padding: 1.2rem 0;
 }
 .buttons{
+    padding: 3rem 0 5rem;
     justify-content: center;
     gap: 2rem;
 }
@@ -63,9 +61,10 @@ header::after {
     background-color: white;
     border: 3px solid #E0D177;
     border-radius: 4px;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 .btn:hover {
     cursor: pointer;
     box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    background-color: #F5F5F5;
 }
